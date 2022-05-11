@@ -1,0 +1,3 @@
+float32 startAngle
+float32 endAngle
+float32 avgDist

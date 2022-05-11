@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="laser_ranging" type="scan2.py" name="scan_data" output="screen">
+        
+    </node>
+</launch>
