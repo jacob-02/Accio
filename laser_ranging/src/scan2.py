@@ -51,7 +51,7 @@ def callback(msg):
     laser_message.obstacles = obstacle_list
 
     # while not rospy.is_shutdown():
-    rospy.loginfo(laser_message)
+    # rospy.loginfo(laser_message)
     pub.publish(laser_message)
 
 sub = rospy.Subscriber('/scan', LaserScan, callback)
